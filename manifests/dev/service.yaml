@@ -2,13 +2,13 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    name: saemea-app
-  name: saemea-app-svc
+    name: mglarry-app
+  name: mglarry-app-svc
   namespace: dev
 spec:
   type: LoadBalancer
   selector:
-    app: saemea-app
+    app: mglarry-app
   ports:
   - name: http
     protocol: TCP
