@@ -143,7 +143,7 @@ jobs:
       #     manifests: |
       #        manifests/dev/deployment.yaml
       #        manifests/dev/service.yaml  
-      # test
+      # test2
      
       - name: Deploying to Dev
         run: |
